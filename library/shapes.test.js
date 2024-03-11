@@ -10,8 +10,9 @@ const Shapes = require('./library/shapes');
 describe('Circle test', () => {
     test('test circle renders correctly' () => {
         const Shapes = new Circle(),
-        shapes.setColour =('blue'),
-        expect(shapes.render()).toEqual('<circle cx="150" cy="115" r="80" fill="#ca00ca">')),
+        Shapes.setColour =('blue'),
+        expect(Shapes.render()).toEqual('<circle cx="150" cy="100" r="100" fill="blue" />
+        <text x="150" y="125" font-size="70" text-anchor="middle" fill="white">EKO</text>')),
     });
 });
 
@@ -19,8 +20,8 @@ describe('Circle test', () => {
 describe('Triangle test', () => {
     test('test circle renders correctly' () => {
         const Shapes = new Circle(),
-        shapes.setColour =('blue'),
-        expect(shapes.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue>')),
+        Shapes.setColour =('blue'),
+        expect(Shapes.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue>')),
     });
 });
 
@@ -28,7 +29,7 @@ describe('Triangle test', () => {
 describe('Square test', () => {
     test('test circle renders correctly' () => {
         const Shapes = new Circle(),
-        shapes.setColour =('blue'),
-        expect(shapes.render()).toEqual('<>')),
+        Shapes.setColour =('blue'),
+        expect(Shapes.render()).toEqual('<rect x="73" y="40" width="160" height="160" fill="pink">')),
     });
 });

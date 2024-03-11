@@ -10,7 +10,8 @@ class Shapes {
 // Circle class inherits properties defined in Shapes class
 class Circle extends Shapes {
     render() {
-        return '<circle cx="150" cy="115" r="80" fill="${this.text}>fill="${this.color}fill="${this.color}';
+        return '<circle cx="150" cy="115" r="80" fill="${this.shapeColour}>
+        <text x="150" y="125" font-size="70" text-anchor="middle fill="${this.text}">${this.textColour}';
     }
 }
 
@@ -24,7 +25,7 @@ class Triangle extends Shapes {
 // Square class inherits properties defined in Shapes class
 class Square extends Shapes {
     render() {
-        return '<fill="${this.text}>fill="${this.color}fill="${this.color}';
+        return '<rect x="73" y="40" width="160" height="160" fill="${this.text}>fill="${this.color}fill="${this.color}">';
     }
 }
 
