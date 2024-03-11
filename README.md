@@ -16,9 +16,17 @@ SVG logo maker through Node.js command-line
 - The user will open the cloned repository in a source code editor adn the integrated terminal. 
 
 ## Usage
-To use this project 
+- To use this project, the user must open the intergrated terminal in a source code editor.
+- Next, the user will run "node index.js" in the command line.
+- The user will then go through the prompted questions and/or statements. 
+- Video showing usage of this project in terminal to create a SVG logo
+
+## License 
+- There is no license for this project. 
 
 ## Tests
-- 
+- Each shape class is tested for a "render()" method that returns a string for the corresponding SVG file with the given shape color. 
 
 ## Credits
+
+University of Toronto. (2023). Coding Boot Camp [Source Code].
