@@ -1,15 +1,14 @@
 // Packages needed for this application 
-const inquirer = require('inquirer'); // npm package
-const fs = require('fs'); // file system
-const shapes = require('./library/shapes')
+const inquirer = require('inquirer'); // npm import
+const fs = require('fs'); // file system import
+const Shapes = require('./library/shapes') // ./library/shapes file import
 
 console.log("This is my command-line SVG Logo Maker!");
 console.log("The following questions will generate a SVG logo once answered.");
 
 // Array of questions created for user input
-// Input / questions for SVG  logo options 
 // Objects with type, name and message properties and choices for the shape options
-// When node index.js is entered in the terminal it will go through these questions for the user to answer 
+// When node index.js is entered in the terminal it will go through these questions/statements for the user to answer 
 const questions = [
     {
         type: "input",
