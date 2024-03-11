@@ -10,14 +10,14 @@ class Shapes {
 // Circle class inherits properties defined in Shapes class
 class Circle extends Shapes {
     render() {
-        return '<fill="${this.text}>fill="${this.color}fill="${this.color}';
+        return '<circle cx="150" cy="115" r="80" fill="${this.text}>fill="${this.color}fill="${this.color}';
     }
 }
 
 // Triangle class inherits properties defined in Shapes class
 class Triangle extends Shapes {
     render() {
-        return '<fill="${this.text}>fill="${this.color}fill="${this.color}';
+        return '<polygon points="150, 18 244, 182 56, 182" fill="${this.text}>fill="${this.color}fill="${this.color}';
     }
 }
 
