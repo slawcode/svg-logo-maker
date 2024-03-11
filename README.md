@@ -3,7 +3,8 @@ SVG logo maker through Node.js command-line
 
 ## Description
 - The motivation for this project was to create an Object Oriented Programming application that generates a logo through the command line using node js, which can be saved as a SVG file. 
-- Challenges were initially faced when setting up the project and specifically creating files. Without any starter code there was some confusion on which files were needed to organize code. 
+- Challenges were initially faced when setting up the project and specifically creating files. Without any starter code there was some confusion on which files were needed to organize code. The recommended guidelines for directory structure helped resolve these issues.
+- I learned / gained a better understanding of ...
 
 ## Installation
 - The user can check if they have Node.js by running the command node -v.

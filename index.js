@@ -7,7 +7,7 @@ console.log("This is my command-line SVG Logo Maker!");
 console.log("The following questions will generate a SVG logo once answered.");
 
 // Array of questions created for user input
-// Input / questions for SVG  log options 
+// Input / questions for SVG  logo options 
 // Objects with type, name and message properties and choices for the shape options
 // When node index.js is entered in the terminal it will go through these questions for the user to answer 
 const questions = [
@@ -50,7 +50,7 @@ function writeToFile(fileName, data) {
 
 // Function created to initialize app
 function init() {
-    inquirer.createPromptModule(questions)
+    inquirer.prompt(questions)
     .then(function (userInput) {
         console.log(userInput)
         writeToFile(svg_file, svgString);
