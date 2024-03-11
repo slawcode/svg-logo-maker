@@ -1,6 +1,7 @@
 // Packages needed for this application 
 const inquirer = require('inquirer'); // npm package
 const fs = require('fs'); // file system
+const shapes = require('./library/shapes')
 
 console.log("This is my command-line SVG Logo Maker!");
 console.log("The following questions will generate a SVG logo once answered.");
