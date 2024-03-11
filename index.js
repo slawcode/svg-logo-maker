@@ -42,3 +42,14 @@ function writeToFile(fileName, data) {
         console.log("Complete! You can preview your SVG logo.");
     })
 };
+
+// Function created to initialize app
+function init() {
+    inquirer.createPromptModule(questions)
+    .then(function (userInput) {
+        console.log(userInput)
+        writeToFile(svg_file, svgString);
+    });
+};
+
+init();
