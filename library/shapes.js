@@ -7,8 +7,18 @@ class Shapes {
    }
 }
 
-// Circle class inherits properties defined in Shape class
+// Circle class inherits properties defined in Shapes class
 class Circle extends Shapes {
-    constructor(colour, )
+    constructor(text, textColour, shapeColour )
+}
+
+// Triangle class inherits properties defined in Shapes class
+class Triangle extends Shapes {
+    constructor(text, textColour, shapeColour)
+}
+
+// Square class inherits properties defined in Shapes class
+class Square extends Shapes {
+    constructor(text, textColour, shapeColour)
 }
 module.exports = Shapes;
