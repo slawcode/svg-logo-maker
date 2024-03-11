@@ -43,6 +43,10 @@ function writeToFile(fileName, data) {
     })
 };
 
+// Const created to add user inputs to SVG file
+// let svg = new Svg();
+// svgString = svg.render();
+
 // Function created to initialize app
 function init() {
     inquirer.createPromptModule(questions)
@@ -51,5 +55,16 @@ function init() {
         writeToFile(svg_file, svgString);
     });
 };
+
+// User text input 
+let user_text = "";
+if(answers.text.length === 3) {
+    user_text = answers.text;
+} else {
+    console.log("The logo text length is not three characters. Please enter three characters.")
+return;
+}
+
+
 
 init();
