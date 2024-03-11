@@ -11,7 +11,7 @@ SVG logo maker through Node.js command-line
 - If the user does not have Node.JS already installed they can go to Node.js and follow the instructions provided.
 - The user can check if they have Inquirer by running the command "npm -v".
 - If the user needs to install npm package they can run the command "npm i" or "npm install".
-- The nuser will run the command "npm install --save-dev jest" to install Jest as a devDependency.
+- The user will run the command "npm install --save-dev jest" to install Jest as a devDependency.
 - By running the command "npm install jest--global" the user can run Jest on the command line. 
 - Next, the user will clone this repository to their computer by running the command git clone + "repository copied link".
 - The user will open the cloned repository in a source code editor adn the integrated terminal. 
