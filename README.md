@@ -30,4 +30,24 @@ SVG logo maker through Node.js command-line
 
 ## Credits
 
-University of Toronto. (2023). Coding Boot Camp [Source Code].
+Calle, T. (2023). Thomas object oriented programming SVG logo maker. GitHub [Source Code]. https://github.com/ThomasCalle/Thomas-Object-Oriented-Programming-SVG-Logo-Maker.git
+
+Destiny Marie. (2023, July 7). SVG Logo maker walkthrough [Video]. YouTube. https://www.youtube.com/watch?v=5uVpqsqeIU0 
+
+Getting Started. (2023, May 19). MDN Web Docs. Retrieved March 10, 2024, from https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started
+
+Messett, R. (2023). SVG logo maker. GitHub [Source Code]. https://github.com/rmessett15/SVG-Logo-Maker.git 
+
+Morris, W. (2023, March 10). What is an SVG File (And how do you use it). (2023, March 10). Elegant Themes. Retrieved March 10, 2024, from https://www.elegantthemes.com/blog/wordpress/what-is-an-svg-file-and-how-do-you-use-it
+
+Olsavsky, E. (2023). SVG logo maker. GitHub [Source Code]. https://github.com/elizabetholsavsky/SVG-logo-maker.git
+
+SVG Logo Maker. (2023, May 25). Socket. Retrieved March 10, 2024, from https://socket.dev/npm/package/svg-logo-maker#installation
+
+THOSCALLE. (2023, February 24). Thomas' object oriented programming SVG logo maker [Video]. YouTube. (https://www.youtube.com/watch?v=GJYMcLus3v0)
+
+University of Toronto. (2023). Coding Boot Camp [Source Code]. 
+
+
+
+
