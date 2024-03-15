@@ -10,9 +10,9 @@ const { Circle, Triangle, Square} = require('./shapes');
 describe('Circle test', () => {
     test('test circle renders correctly' () => {
         const shape = new Circle(),
-        Shapes.setColour =('blue'),
-        expect(Shapes.render()).toEqual('<circle cx="150" cy="100" r="100" fill="blue" />
-        <text x="150" y="125" font-size="70" text-anchor="middle" fill="white">EKO</text>')),
+        shape.setColour =('blue'),
+        expect(shape.render()).toEqual(`<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg"><circle cx="150" cy="115" r="80" fill="${this.shapeColour}"/>
+        <text x="150" y="125" font-size="70" text-anchor="middle" fill="${this.textColour}">${this.text}</text></svg>`),
     });
 });
 
@@ -20,8 +20,8 @@ describe('Circle test', () => {
 describe('Triangle test', () => {
     test('test circle renders correctly' () => {
         const shape = new Circle(),
-        Shapes.setColour =('blue'),
-        expect(Shapes.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue>')),
+        shape.setColour =('blue'),
+        expect(shape.render()).toEqual(`<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg"><polygon points="150, 18 244, 182 56, 182" fill="${this.shapeColour}"/><text x="150" y="125" font-size="70" text-anchor="middle" fill="${this.textColour}">${this.text}</text></svg>`),
     });
 });
 
@@ -29,7 +29,7 @@ describe('Triangle test', () => {
 describe('Square test', () => {
     test('test circle renders correctly' () => {
         const shape = new Circle(),
-        Shapes.setColour =('blue'),
-        expect(Shapes.render()).toEqual('<rect x="73" y="40" width="160" height="160" fill="pink">')),
+        shape.setColour =('blue'),
+        expect(shape.render()).toEqual(`<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg"><rect x="73" y="40" width="160" height="160" fill="${this.shapeColour}"/><text x="150" y="125" font-size="70" text-anchor="middle" fill="${this.textColour}">${this.text}</text></svg>`),
     });
 });
