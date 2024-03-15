@@ -38,6 +38,8 @@ Getting Started. (2023, May 19). MDN Web Docs. Retrieved March 10, 2024, from ht
 
 Messett, R. (2023). SVG logo maker. GitHub [Source Code]. https://github.com/rmessett15/SVG-Logo-Maker.git 
 
+Meyers, M. [2024, March 15]. Online tutoring session [Zoom]. 
+
 Morris, W. (2023, March 10). What is an SVG File (And how do you use it). (2023, March 10). Elegant Themes. Retrieved March 10, 2024, from https://www.elegantthemes.com/blog/wordpress/what-is-an-svg-file-and-how-do-you-use-it
 
 Olsavsky, E. (2023). SVG logo maker. GitHub [Source Code]. https://github.com/elizabetholsavsky/SVG-logo-maker.git

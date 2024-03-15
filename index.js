@@ -15,7 +15,8 @@ const questions = [
         type: "input",
         name:"text",
         message: "Enter three characters for logo:",
-        validate: (text) => text.length <= 3 || "The logo text length is not three characters. Please enter three characters."
+        // Validate the user can only enter three characters
+        validate: (text) => text.length <= 3 || "The logo text length must be three characters or less."
     },
     {
         // Text colour input
@@ -25,6 +26,7 @@ const questions = [
     },
     {
         // Shape input
+        // List type to prompt user to choose from one of three shapes/choices
         type: "list",
         name:"shape",
         message: "Choose a shape for logo:",
@@ -43,12 +45,9 @@ function writeToFile(fileName, data) {
         if (error) {
             return console.log(error);
         }
-        console.log("Complete! Yor SVG logo has been generated!");
+        console.log("Complete! Your SVG logo has been generated!");
     })
 }
-
-// let svg = new Svg();
-// svgString = svg.render();
 
 // Function created to initialize application
 function init() {
@@ -56,6 +55,7 @@ function init() {
     .then(function (userInput) {
         console.log(userInput)
         let shape; 
+        // Conditional statements takes users input from const questions and adds to SVG string
         if (userInput.shape === "Circle") {shape = new Circle(userInput.text, userInput.textColour, userInput.shapeColour)}
         else if (userInput.shape === "Square") {shape = new Square(userInput.text, userInput.textColour, userInput.shapeColour)}
         else {shape = new Triangle(userInput.text, userInput.textColour, userInput.shapeColour)}
@@ -63,17 +63,6 @@ function init() {
         writeToFile("svg_file.svg", svg_file);
     });
 };
-
-// User text input 
-// let user_text = "";
-// if(answers.text.length === 3) {
-//     user_text = answers.text;
-// } else {
-//     console.log("The logo text length is not three characters. Please enter three characters.")
-// return;
-// }
-
-
 
 // Function call to initialize application
 init();
