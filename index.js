@@ -40,6 +40,7 @@ const questions = [
     },
 ];
 
+// Function created to write data to file 
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, function (error) {
         if (error) {
