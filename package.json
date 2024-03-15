@@ -21,5 +21,8 @@
   "homepage": "https://github.com/slawcode/svg-logo-maker#readme",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "inquirer": "8.2"
   }
 }
