@@ -37,21 +37,19 @@ const questions = [
     },
 ];
 
-// Function created to write data to SVG file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, svg, (error) => 
-    if (error) {
-    return console.log(error);
+    fs.writeFile(fileName, data function (error) {
+        if (error) {
+            return console.log(error);
+        }
+        console.log("Complete! Yor SVG logo has been generated!");
     }
-    // If no error below text is shown in command line 
-    console.log("Complete! You can preview your SVG logo."));
-};
+}
 
-// Const created to add user inputs to SVG file
 // let svg = new Svg();
 // svgString = svg.render();
 
-// Function created to initialize app
+// Function created to initialize application
 function init() {
     inquirer.prompt(questions)
     .then(function (userInput) {
@@ -70,5 +68,5 @@ return;
 }
 
 
-
+// Function call to initialize application
 init();
