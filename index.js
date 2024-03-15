@@ -11,22 +11,26 @@ console.log("The following questions will generate a SVG logo once answered.");
 // When node index.js is entered in the terminal it will go through these questions/statements for the user to answer 
 const questions = [
     {
+        // Text input
         type: "input",
         name:"text",
         message: "Enter three characters for logo:",
     },
     {
+        // Text colour input
         type: "input",
         name:"text-colour",
         message: "Enter a colour for text:",
     },
     {
+        // Shape input
         type: "input",
         name:"shape",
         message: "Choose a shape for logo:",
         choices: ["Circle, Triangle, Square"],
     },
     {
+        // Shape colour input
         type: "input",
         name: "shape-colour",
         message: "Enter a colour for logo shape:",
@@ -35,12 +39,12 @@ const questions = [
 
 // Function created to write data to SVG file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, (error) => {
-        if (error) {
-            return console.log(error);
-        }
-        console.log("Complete! You can preview your SVG logo.");
-    })
+    fs.writeFile(fileName, svg, (error) => 
+    if (error) {
+    return console.log(error);
+    }
+    // If no error below text is shown in command line 
+    console.log("Complete! You can preview your SVG logo."));
 };
 
 // Const created to add user inputs to SVG file
