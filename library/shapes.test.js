@@ -1,9 +1,4 @@
-// Example test provided in README challenge instructions
-// const shape = new Triangle();
-// shape.setColor("blue");
-// expect(shape.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue" />');
-
-// Importing Shapes class from ./library/shapes.js
+// Imports classes (Circle, Triangle, Square) from ./library/shapes.js
 const { Circle, Triangle, Square} = require('./shapes');
 
 // Circle shape test

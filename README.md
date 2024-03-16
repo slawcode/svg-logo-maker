@@ -4,7 +4,10 @@ SVG logo maker through Node.js command-line
 ## Description
 - The motivation for this project was to create an Object Oriented Programming application that generates a logo through the command line using node js, which can be saved as a SVG file. 
 - Challenges were initially faced when setting up the project and specifically creating files. Without any starter code there was some confusion on which files were needed to organize code. The recommended guidelines for directory structure helped resolve these issues.
-- I learned / gained a better understanding of ...
+- There were also challenges when creating the conditional statements as I was unsure where to place them and eventually they were placed inside the init function. 
+- Lastly, I underestimated the amount of time the project would take and throughout I aimed to consolidate as much of the code as possible, while also solidifying my understanding and learning of the concepts.  
+- I furthered my understanding of the parent and child classes and inheritance and how they can be used to avoid repetition. 
+- Through the making of this assignment I gained a much better understanding of jest tests. I learned how to use the describe method. I also leanred more about the syntax of jest tests. For example, some challenges arose because of commas in the syntax and as a result the tests were not running properly. However, once they were removed the tests all passed. 
 
 ## Installation
 - The user can check if they have Node.js by running the command node -v.
@@ -14,19 +17,20 @@ SVG logo maker through Node.js command-line
 - The user will run the command "npm install --save-dev jest" to install Jest as a devDependency.
 - By running the command "npm install jest--global" the user can run Jest on the command line. 
 - Next, the user will clone this repository to their computer by running the command git clone + "repository copied link".
-- The user will open the cloned repository in a source code editor adn the integrated terminal. 
+- The user will open the cloned repository in a source code editor and the integrated terminal. 
 
 ## Usage
 - To use this project, the user must open the intergrated terminal in a source code editor.
 - Next, the user will run "node index.js" in the command line.
 - The user will then go through the prompted questions and/or statements. 
+
 - Video showing usage of this project in terminal to create a SVG logo
 
 ## License 
 - There is no license for this project. 
 
 ## Tests
-- Each shape class is tested for a "render()" method that returns a string for the corresponding SVG file with the given shape color. 
+- Each shape is tested for a "render()" method that returns a string for the corresponding SVG file with the given shape color. 
 
 ## Credits
 

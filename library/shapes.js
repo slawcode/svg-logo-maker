@@ -29,5 +29,5 @@ class Square extends Shapes {
     }
 }
 
-// Exports classes 
+// Exports classes (Circle, triangle, Square)
 module.exports = { Circle, Triangle, Square};
